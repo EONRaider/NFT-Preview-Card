@@ -1,0 +1,196 @@
+/* === START CSS RESET === https://andy-bell.co.uk/a-more-modern-css-reset/ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* === END CSS RESET === */
+
+/* COMPOSITION */
+body {
+  /* width: 1440px;
+  height: 900px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Outfit, 'sans-serif';
+}
+
+.card {
+  width: 350px;
+  height: 596px;
+}
+
+/* UTILITIES */
+:root {
+  --dark-blue-1: #0d192c;
+  --dark-blue-2: #15263f;
+  --dark-blue-3: #2e405a;
+  --soft-blue: #8bacd9;
+  --cyan: #00fff8;
+  --white: #ffffff;
+  --flow-width: 24px;
+  --short-flow-width: calc(var(--flow-width) * 2 / 3);
+  --x-short-flow-width: 7.7px;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-width);
+}
+
+.x-short-flow > * + * {
+  margin-left: var(--x-short-flow-width);
+}
+
+.bg-primary {
+  background-color: var(--dark-blue-1);
+}
+
+.bg-secondary {
+  background-color: var(--dark-blue-2);
+}
+
+.hoverable:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+/* BLOCK */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: var(--flow-width);
+}
+
+.card-content-image-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.card-content-image-overlay:hover .card__view-icon {
+  display: block;
+}
+
+.card-content-image-overlay:hover:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 248, 0.503);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card__image {
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.card__view-icon {
+  display: none;
+  position: absolute;
+  top: 127px;
+  left: 127px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--white);
+  display: inline;
+}
+
+.card__text {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--soft-blue);
+  margin-top: var(--short-flow-width);
+}
+
+.card-token-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-token-data-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-token-data__price {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.card-token-data__expiration {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--soft-blue);
+}
+
+.card__ruler {
+  height: 1px;
+  background-color: var(--dark-blue-3);
+}
+
+.card-attribution {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-attribution__avatar {
+  height: 33px;
+  width: 33px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  border: 1px solid var(--white);
+}
+
+.card-attribution__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--soft-blue);
+  margin-left: 16px;
+}
+
+.card-attribution__author-name {
+  color: var(--white);
+}
+/* EXCEPTIONS */
