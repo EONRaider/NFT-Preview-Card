@@ -23,8 +23,7 @@ A simple project using HTML5 and CSS3 that displays an NFT preview card consisti
 ![NFT Preview Card Component](https://github.com/EONRaider/NFT-Preview-Card-Component/assets/15611424/553e47e4-7906-48aa-a7f0-58dd4406a19a)
 
 ### Links
-
-- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/project-name)
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-html5css3-nft-preview-card-component-MB9r3Z65Hy)
 - [Check the Live Site](https://eonraider-nft-preview-card-component.netlify.app/)
 
 ## My process
