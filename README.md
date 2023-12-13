@@ -10,7 +10,6 @@ This is a solution to the [NFT Preview Card Component](https://www.frontendmento
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
