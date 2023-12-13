@@ -50,6 +50,12 @@ body {
   height: 596px;
 }
 
+.card-token-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* UTILITIES */
 :root {
   --dark-blue-1: #0d192c;
@@ -79,11 +85,6 @@ body {
   background-color: var(--dark-blue-2);
 }
 
-.hoverable:hover {
-  color: var(--cyan);
-  cursor: pointer;
-}
-
 /* BLOCK */
 .card-content {
   display: flex;
@@ -96,22 +97,6 @@ body {
 .card-content-image-overlay {
   position: relative;
   display: inline-block;
-}
-
-.card-content-image-overlay:hover .card__view-icon {
-  display: block;
-}
-
-.card-content-image-overlay:hover:after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 255, 248, 0.503);
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .card__image {
@@ -138,12 +123,6 @@ body {
   font-weight: 300;
   color: var(--soft-blue);
   margin-top: var(--short-flow-width);
-}
-
-.card-token-data {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .card-token-data-container {
@@ -193,4 +172,25 @@ body {
 .card-attribution__author-name {
   color: var(--white);
 }
+
 /* EXCEPTIONS */
+.hoverable:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.card-content-image-overlay:hover .card__view-icon {
+  display: block;
+}
+
+.card-content-image-overlay:hover:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 248, 0.503);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
