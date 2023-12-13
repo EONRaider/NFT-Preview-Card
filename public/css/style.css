@@ -130,6 +130,7 @@ body {
 .card__text {
   font-size: 18px;
   font-weight: 300;
+  line-height: 26px;
   color: var(--soft-blue);
   margin-top: var(--short-flow-width);
 }
