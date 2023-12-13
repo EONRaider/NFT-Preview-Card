@@ -39,3 +39,6 @@ A simple project using HTML5 and CSS3 that displays an NFT preview card consisti
 
 - Semantic HTML5 markup
 - Cube CSS methodology
+
+### What I learned
+- How to implement a color transparency along with an overlayed image on a hover effect.
