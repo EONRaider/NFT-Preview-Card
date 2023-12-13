@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "nft-preview-card-component",
   "version": "1.0.0",
-  "description": "A brief description of the project",
+  "description": "NFT Preview Card Component challenge from Frontend Mentor using HTML5/CSS3",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Project-Repo.git"
+    "url": "git+https://github.com/EONRaider/NFT-Preview-Card-Component.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Project-Repo/issues"
+    "url": "https://github.com/EONRaider/NFT-Preview-Card-Component/issues"
   },
-  "homepage": "https://github.com/EONRaider/Project-Repo#readme",
+  "homepage": "https://github.com/EONRaider/NFT-Preview-Card-Component#readme",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
