@@ -40,3 +40,4 @@ A simple project using HTML5 and CSS3 that displays an NFT preview card consisti
 
 ### What I learned
 - How to implement a color transparency along with an overlayed image on a hover effect.
+- I had to use a few CSS variables in order to guarantee the adequate positioning of the "view icon" over the NFT preview image on different viewport dimensions.
