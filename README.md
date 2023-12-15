@@ -1,4 +1,4 @@
-# Frontend Mentor - Project Name solution
+# Frontend Mentor - NFT Preview Card Component solution
 
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/QR-Code-Component?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/project-name)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
@@ -10,7 +10,6 @@ This is a solution to the [NFT Preview Card Component](https://www.frontendmento
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,8 +23,7 @@ A simple project using HTML5 and CSS3 that displays an NFT preview card consisti
 ![NFT Preview Card Component](https://github.com/EONRaider/NFT-Preview-Card-Component/assets/15611424/553e47e4-7906-48aa-a7f0-58dd4406a19a)
 
 ### Links
-
-- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/project-name)
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-html5css3-nft-preview-card-component-MB9r3Z65Hy)
 - [Check the Live Site](https://eonraider-nft-preview-card-component.netlify.app/)
 
 ## My process
@@ -39,3 +37,6 @@ A simple project using HTML5 and CSS3 that displays an NFT preview card consisti
 
 - Semantic HTML5 markup
 - Cube CSS methodology
+
+### What I learned
+- How to implement a color transparency along with an overlayed image on a hover effect.
