@@ -37,8 +37,6 @@ img {
 
 /* COMPOSITION */
 body {
-  /* width: 1440px;
-  height: 900px; */
   display: flex;
   justify-content: center;
   align-items: center;
